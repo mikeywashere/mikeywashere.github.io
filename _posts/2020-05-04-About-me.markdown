@@ -1,0 +1,242 @@
+---
+layout: post
+title:  "About Me"
+date:   2020-05-04 23:30:07 -0700
+categories: about
+---
+
+•	Proven track record of delivering scalable and reliable systems
+
+Skills
+* C#
+* Relational Databases (SQL Server, Oracle)
+*	Performance (CPU cache operation and how it can affect performance)
+*	Security including whole system, desktop application, Web, SQL and the Security Development Lifecycle
+*	CI/CD - Continuous Integration/Continuous Delivery
+* TDD
+
+Other Skills
+*	React
+*	JavaScript
+*	Git
+*	HTML
+*	CSS
+*	Angular
+*	Graphite/Grafana
+*	Time series data
+
+Less Used Skills
+*	C/C++/Java/Assembler
+*	Node
+*	Express
+*	Jenkins
+*	Team City 
+*	jQuery
+
+What I am looking for
+
+A team that values
+*	Integrity
+*	Diversity
+*	Mentoring
+*	Working together
+*	Solving hard problems
+*	Learning
+
+Experience
+
+Donnelley Financial, May 2018 – March 2020, Senior Software Engineer, C#, Dot Net Framework
+
+API
+*	Enhanced the reliability of our APIs by using a circuit breaker pattern
+*	Enhanced logging by not swallowing exceptions, logging everything
+*	Implemented StatsD (Datadog) for performance logging allowing insight into process performance that was not available before
+* Moved from Azure TFS to Azure Dev Ops
+*	Moved to the new azure-pipeline yaml format for builds
+*	Removed a lot of PowerShell scripts that were no longer required
+*	Added build versioning to every component, previously this was a manual step
+Legacy code, processing XBRL
+*	Learned and worked with a 15-year-old existing architecture
+*	Modified code to work better, faster, more resilient
+*	Updated SQL servers to remove outdated records to allow for faster response times
+*	Updated SQL code to fix errors and slowness caused by poorly written Entity Framework code
+*	Modified SQL server code to reduce locking and required work to save documents
+Word Add In
+*	The Word Add In is the heart of the XBRL editing experience
+*	Modified code to add resilience in dealing with service failures
+*	Modified setup (MSI) to allow for an upgrade experience
+*	Was working on exfil of logging data from Word Add In to allow detecting and fixing client side faults
+Miscellaneous
+*	Dabbled in Jenkins as a build server
+*	Tried (and liked) Kubernetes as a deployment strategy. We didn’t use it because the codebase is not ready yet.
+
+Parametric Portfolio, July 2017 – April 2018
+Software Engineer
+C#, Dot Net Framework
+Windows Service for processing Messages from RabbitMQ
+*	Learned and worked with a 10-year-old existing architecture
+*	Created a new, modular, Windows Service
+*	New services could easily be created
+*	Lead the movement from a Ninject to Autofac
+*	Spoke to team about updating VS2017 often to get latest capabilities
+*	Took online courses to sharpen my git skills.
+*	FIFO updates – to support probable new tax law:
+*	Worked on an existing very old Windows forms application to add new input fields to support varying tax lot methods.
+*	Added fields to the Sql Server database supporting the application to support varying tax lot methods.
+ 
+ChangePoint/Daptiv, June 2016 – June 2017
+Senior Software Engineer
+C#, Dot Net Framework 4.5, ASP.Net, MVC, ServiceStack, Node/Express/React
+SAAS Project Management Website
+*	Learned and worked with a 15-year-old existing architecture
+*	Major UI update within the existing code/architecture
+*	Major update for user defined fields within the existing code/architecture
+*	Update to the security authorization system built on Identity Server
+*	Rearchitecting around AWS and Express/Node/React for all new pages
+*	Championed using Visual Studio 2017 to help speed development
+*	Used VS Code for Node/React development
+*	Constantly improvement in existing code
+*	Removed many impediments to change in the existing code
+
+Nordstrom, Sept 2014 –May 2016
+Senior Software Engineer
+C#, Dot Net Framework 3.5, 4.0, 4.5, ASP.Net
+Website
+*	Made many performance improvements in a Dot Net stack
+*	Adding PayPal support
+*	Rearchitecting pain points
+*	Building a temporary queue for orders for the few times a year when the official queue fails. Used the PKCS#7 standard, signing and encrypting the payment information while it sat at rest waiting for the official queue channel to return to service. Using certificates in this way kept all secrets out of the source code.
+*	Converted projects from Visual Studio 2008 to 2015
+*	Constantly improved a very old codebase
+*	Refactored many sections of code to use current coding standards
+*	Helper classes/functions into base classes
+*	Feature flags from If statements to a real strategy pattern
+*	Reviewed code from junior developers providing constructive feedback, enabling developers to grow in their knowledge and competencies.
+*	Reviewed new Java code (new to team as we transition to AWS). Made constructive feedback to keep past coding practices from creeping into the new code base.
+*	Had to fight many times against "We don't have time to do it right, we just need to get it done."
+
+Drugstore.com, Apr 2011 –Sept 2014
+Principle Engineer
+C#, Dot Net Framework 3.5, 4.0, 4.5, ASP.Net
+Website
+*	Made many performance improvements in a Dot Net/C++/COM stack
+*	Converted projects from Visual Studio 2008 to 2013
+*	Replaced many COM components with their dot net counterparts. The MSXML6 (Historical left over from vb/asp days) com component was one particularly problematic piece we replaced with actual C# xml processing.
+*	Constantly improved a very old codebase.
+*	Brought in a plastic yellow child bat with "Unhandled Exception Handler" written on it to encourage the team to remove the unhandled exceptions from our code – the metaphor was to “Hit them out of the park”. This resulted in removal of all of the unhandled exceptions that the code had been experiencing for years.
+*	Refactored many sections of code to use current coding standards
+*	Made changes to the C++/COM layer when necessary
+*	Helped build team make necessary build and deploy script changes to enable using newer technology
+*	Participated in PCI related code changes enabling the company to pass the PCI audit process
+*	Drove change to remove “Admin” access for web server app domain
+*	Reviewed code from junior developers providing constructive feedback, enabling developers to grow in their knowledge and competencies.
+*	Created new restful web services to support new website code using dot net 4.5 web API
+*	Designed and architected the new Auto Delivery program with a one-year roadmap of features
+*	Created a “Secure Coding” presentation to teach about code/web security. Presented two years in a row.
+
+James Farrell, Feb 2011 – Apr 2011
+Senior Software Developer
+C#, Dot Net Framework 3.5, 4.0, ASP.Net
+Internal Proprietary Application
+*	Made many performance improvements in a C# desktop application with a SQL Server backend.
+*	Upgraded projects from Visual Studio 2008 to 2010
+*	Taught team to use xsd.exe to create classes for reading and writing xml based on an xsd.
+*	Wrote a generic xml parser that imported xml data that was defined in hierarchical records in a SQL database. This allowed customer defined xml to be dynamically read by the system.
+
+Microsoft, Sep 2010 –Feb 2011
+Senior Software Developer
+C#, Dot Net Framework 3.5, 4.0, ASP.Net
+adExpert/Advertising
+*	Converted build system from CoreXT to TFS
+*	Converted projects from Visual Studio 2008 to 2010
+*	Responsible for code signing ClickOnce code base
+
+Microsoft, June 2010 – Sep 2010
+Senior Software Developer
+C#, Dot Net Framework 3.5, 4.0, ASP.Net, jQuery and Ajax
+adCenter Campaign Management
+*	Maintained and updated scripts for running tests
+*	Tests run using Windows scheduler
+*	Built a website to start, stop, view and manage test results
+adCenter UI
+*	Designed and built a complete server monitoring solution
+*	Multiple tier design.
+*	Windows service manages test schedule and results on physical servers.
+*	Web service component monitors data from windows service.
+*	Website displays all information to user.
+
+Microsoft, Feb 2010 – May 2010
+Senior Software Developer
+C#, Dot Net Framework 3.5, 4.0, WPF
+Bing Cash Back – Data Acquisition Team
+*	Maintained and updated a Windows Presentation Foundation (WPF) based C# application.
+*	Application was used for previewing and diagnosing incoming data feeds.
+*	Minor changes to SQL database.
+
+Microsoft, April 2006 – August 2009
+Software Development Engineer II
+C#, SQL Server 2000, 2005, 2008, Dot Net Framework 2.0, 3.5
+Advertising – Billing Team
+*	Lead a team inexperienced in C#. As more members began working on binaries I became the information source on C# coding, standards and security.
+*	Architected a complex billing system using Visual Studio 2005 and SQL Server 2000. Later upgraded system to VS 2008 and SQL Server 2008
+*	Accurately billed customers using credit card information.
+*	Automated complex logic based on business driven specifications.
+*	Flexibly designed to change business rules without interfering with billing operations.
+*	System exceeded SDLC (Security Development Lifecycle) requirements.
+*	Designed and implemented to meet extreme uptime requirements including adding and removing and updating routing queues, modifying the number of processing threads all while the system was running. Routing queues represented payment types so we could add a new payment type, such as checking account while the system was running. Or replace an existing payment type with new logic by deploying a new dll and configuration file.
+*	Allowed log files to be read for troubleshooting and forensic analysis while the service was active.
+*	Created a web service as the middle tier payment processing part of the billing system
+*	Created a caged security service for distributing security keys to registered applications.
+*	Service handled keys for all private customer information including LBI, MBI and HBI. High Business Impact data was encrypted and decrypted on the caged server.
+
+Microsoft, Consultant, September 2004 – April 2006
+Software Development Engineer 
+C#, Dot Net Framework 1.1 & 2.0
+Licensing and Programs Team
+*	Lead a team inexperienced with HTML, CSS, accessibility and web localization issues. I pushed the team to build a CSS compliant site with ADA accessibility and became the technical expert and reference for CSS and accessibility.
+*	Designed and implemented a new online application with Visual Studio 2005.
+*	Critical CSS contributor
+*	Interfaced with legacy systems.
+*	Trade restrictions/rules compliance. - not easy when you consider that selling to denied parties can get a corporation in a lot of trouble. http://www.bis.doc.gov/index.php/policy-guidance/lists-of-parties-of-concern/denied-persons-list
+*	Adaptable configuration allowing over 150 internal clients to customize the system.
+*	Completely localizable including RTL (Right to left) locales.
+*	Custom scalable state management system allowing flexibility in deployment.
+*	Implemented synchronous and asynchronous queues with a plug-in architecture allowing for flexible configuration.
+*	Custom cart design optimized for minimal database access and maximum performance.
+
+T-Mobile, Consultant, May 2000 – August 2004
+Senior Software Development Engineer, Application Architect
+ASP, VB 5 & 6, C#, Dot Net Framework 1.0 & 1.1, SQL 7 & 2K, C++, OLAP, COM
+Customer care website team
+*	Lead the team in technical knowledge. Became known as “MSDN” – Michael Schmidt Developer Network.
+*	Improved the process for tracking checking accounts with NSF checks
+*	Improved the process for granting international calling permission to a subscriber – in some cases the pages loaded 100 times faster – this is really an artifact of rendering on the server rather than using the javascript to render the data. A simple architectural change that everyone else was afraid to take on allowed the team to start managing company phone plans with over 250 phones that required international permissions.
+*	Many improvements to the Handset Order Management System including adding new programs, making the system more flexible to change, adding a tax calculation engine and flexible shipping options. - I've been in touch with the team since this roll out in 2004 – some of the original code I wrote is still running in this system.
+*	Changed the authentication on the site to enable Connection Pooling allowing for more efficient use of database resources. This change alone enabled the system to go from maxing out at 5000 concurrent users to idling along with the same number of users. 
+*	Established a data archive processes to allow the production database to stay at a trim 100gb
+*	Built a process for flexible manipulation of Handset upgrade pricing to allow marketing to change upgrade phone pricing more effectively
+*	Optimized table design and queries giving an overall 5 to 20 times performance improvement across the board.
+*	Implemented many scalability improvements improving the overall performance of the application from 100 pages a minute per server under peak loads to nearly 100 pages a second.
+Other teams
+*	Re-architected and re-wrote a real-time C++ application for the front end IVR system. System required a 250ms lookup from the live customer database. If you call into customer care and caller ID works and the live customer database is responding you will be recognized without having to input your phone number.
+*	Built a custom multi-lingual content management system using Dot Net with a SQL server backend
+*	Architected and built system to transfer cash payment data from 700+ stores to the billing system using a live feed allowing data to be updated in almost real time. Today, if you walk into a store and pay cash your payment will be credited almost immediately, previously they would have told you it could take up 24 hours. The system today is transferring more than a million dollars a day of in store cash payment data to the billing system.
+
+Microsoft December 1994 – April 2000
+Build Engineer
+SQL 6.5 – 2K, C++, VB 5 & 6, COM, ActiveX
+SQL Server Build Team
+*	Created a dynamic build environment allowing developers to create simplified build scripts
+*	Build reporting by website backed by SQL server
+*	Automated the CD burn process
+TechNet Team
+*	Enhanced the content management system written in VB5
+Enterprise Customer Unit Team
+*	Built a 6,000+ user internal website to service the enterprise sales organization
+*	The site tracked sales opportunities and wins to sales teams
+*	Built and operated the Enterprise customer unit datacenter including server racks and hardware purchasing.
+
+Independent Consultant 1984 – 1994
+x86 Assembly Language, Database Design, Pascal, Device Drivers, Motion Control
+*	Specialized in database design and motion control solutions
+*	Created a complete cost accounting and bidding system for a local custom home builder
